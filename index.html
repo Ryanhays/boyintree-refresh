@@ -10,15 +10,54 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="/images/icon/icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/bulma.css">
+  <!-- Adobe Fonts Link -->
+  <link rel="stylesheet" href="https://use.typekit.net/ycv5vfo.css">
+  <!-- FA Link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Pull seperate HTML files into single document -->
+  <script src="js/csi.min.js"></script>
+
+
 </head>
 
 <body>
 
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div data-include="includes/nav.html"></div>
+
+  <section class="hero is-fullheight light-blue-vertical">
+    <div class="hero-body">
+      <div class="container is-fat-fluid">
+        <div class="columns is-variable is-8 is-vcentered">
+          <div class="column is-5">
+            <h1 class="title is-spaced is-size-2">
+              Web Design by Boyintree
+            </h1>
+            <h2 class="subtitle">
+              Hi, I’m Ryan, a freelance web designer, graphic designer and illustrator based in Berlin but working worldwide. I build websites for people who are passionate about their ideas. <br><br>
+
+              If you need help realising the potential of your business, portfolio or web shop, then take a look below to learn how I make my clients happy.
+            </h2>
+            <a class="button is-primary">
+              <strong>Find out more</strong>
+              <span class="icon is-small">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </a>
+          </div>
+          <div class="column is-1"></div>
+          <div class="column is-6">
+            <div id="ipad" class="ipad-presentation has-text-centered">
+              <div class="ipad-container">
+                <img class="standin" src="images/ipad-vector.svg" alt="Ipad Project Showcase">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 </body>
-
 </html>

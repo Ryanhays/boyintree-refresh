@@ -12,6 +12,12 @@
       max-width: none;
       width: auto;
     }
+    &.is-fat-fluid {
+      margin-left: $gap * 2;
+      margin-right: $gap * 2;
+      max-width: none;
+      width: auto;
+    }
   }
 
 
