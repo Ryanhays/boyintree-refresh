@@ -262,6 +262,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/slide-1.jpg": {
+		"ft": 16384,
+		"iS": 5279489,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/slide-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/slide-2.jpg": {
+		"ft": 16384,
+		"iS": 4395806,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/slide-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/slide-3.jpg": {
+		"ft": 16384,
+		"iS": 3842149,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/slide-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/includes/nav.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -282,6 +315,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/csi.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/glide.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/glide.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -312,6 +355,32 @@
 		"oA": 0,
 		"oAP": "/robots.txt",
 		"oF": 0
+		},
+	"/scss/additions/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/additions/glide.core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/glide.core.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/scss/animation/_all.scss": {
 		"aP": 0,
