@@ -64,6 +64,11 @@ $navbar-breakpoint: $desktop !default;
     width: 100%;
   }
 
+  &.is-fixed {
+    position: fixed;
+    width: 100%;
+  }
+
   @each $name, $pair in $colors {
     $color: nth($pair, 1);
     $color-invert: nth($pair, 2);

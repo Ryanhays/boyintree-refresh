@@ -55,9 +55,9 @@
                   <div class="curved-screen">
                     <div class="glide__track" data-glide-el="track">
                       <ul class="glide__slides">
-                        <li class="glide__slide slide-1 is-prehidden basic-fadein slow"></li>
-                        <li class="glide__slide slide-2"></li>
-                        <li class="glide__slide slide-3"></li>
+                        <img src="images/slide-1.jpg" class="glide__slide slide-1 image-fade-in">
+                        <img src="images/slide-2.jpg" class="glide__slide slide-2">
+                        <img src="images/slide-3.jpg" class="glide__slide slide-3">
                       </ul>
                     </div>
                   </div>
@@ -81,6 +81,19 @@
     </div>
   </section>
 
+  <section class="hero is-fullheight">
+    <div class="section-2"></div>
+      <div class="hero-body">
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-fullheight">
+    <div class="section-2"></div>
+      <div class="hero-body">
+      </div>
+    </div>
+  </section>
 
 </body>
 
@@ -88,15 +101,31 @@
 <script>
 
   var glide = new Glide('.glide', {
-    autoplay: 5000,
-    animationDuration: 400,
-    rewindDuration: 600,
+    autoplay: 7000,
+    animationDuration: 300,
+    rewindDuration: 700,
     animationTimingFunc: "cubic-bezier(.67,.49,.68,1)",
     hoverpause: true,
     gap: 0,
   });
 
   glide.mount();
+
+  var img = document.querySelector('.image-fade-in');
+  var loader = document.querySelector('.loading-dots');
+
+  function loaded() {
+    img.classList.add('ready');
+    loader.setAttribute('style', 'opacity: 0');
+  }
+
+  if (img.complete) {
+    loaded();
+  } else {
+    img.addEventListener('load', loaded);
+    img.addEventListener('error', function () {
+    });
+  }
 
 </script>
 
