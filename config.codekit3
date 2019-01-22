@@ -191,6 +191,28 @@
 		"oAP": "/images/.gitignore",
 		"oF": 0
 		},
+	"/images/figures/figure-01-shadowed.png": {
+		"ft": 32768,
+		"iS": 29702,
+		"oA": 0,
+		"oAP": "/images/figures/figure-01-shadowed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/figures/figure-01.png": {
+		"ft": 32768,
+		"iS": 27774,
+		"oA": 0,
+		"oAP": "/images/figures/figure-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/icons/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,

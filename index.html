@@ -55,9 +55,9 @@
                   <div class="curved-screen">
                     <div class="glide__track" data-glide-el="track">
                       <ul class="glide__slides">
-                        <img src="images/slide-1.jpg" class="glide__slide slide-1 image-fade-in">
-                        <img src="images/slide-2.jpg" class="glide__slide slide-2">
-                        <img src="images/slide-3.jpg" class="glide__slide slide-3">
+                        <img src="images/slide-1.jpg" class="glide__slide slide image-fade-in">
+                        <img src="images/slide-2.jpg" class="glide__slide slide">
+                        <img src="images/slide-3.jpg" class="glide__slide slide">
                       </ul>
                     </div>
                   </div>
@@ -74,6 +74,8 @@
                 </div>
                 <div class="ipad-shadow is-prehidden ipad-shadow-transform"></div>
               </div>
+              <img src="images/figures/figure-01-shadowed.png" class="figure-1 is-prehidden basic-fadein slow">
+              <img src="images/figures/figure-01-shadowed.png" class="figure-2 is-prehidden basic-fadein slow">
             </div>
           </div>
         </div>
@@ -102,9 +104,9 @@
 
   var glide = new Glide('.glide', {
     autoplay: 7000,
-    animationDuration: 300,
+    animationDuration: 450,
     rewindDuration: 700,
-    animationTimingFunc: "cubic-bezier(.67,.49,.68,1)",
+    animationTimingFunc:"cubic-bezier(.165, .840, .440, 1)",
     hoverpause: true,
     gap: 0,
   });
